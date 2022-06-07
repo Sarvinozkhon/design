@@ -1,0 +1,59 @@
+.section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.main {
+  width: 1150px;
+  height: 85vh;
+  margin-top: 75px;
+  display: flex;
+}
+.main_child {
+  width: 45%;
+  height: 90%;
+}
+.main_child:not(:last-child) {
+  margin-right: 100px;
+  width: 55%;
+}
+.img_main {
+  width: 90%;
+  height: 80%;
+  animation: animate1 8s linear infinite;
+}
+@keyframes animate1 {
+  0%,
+  100% {
+    transform: translateY(60px);
+  }
+  50% {
+    transform: translateY(-80px);
+  }
+}
+.main_child p {
+  font-size: 72px;
+  color: #ff8a56;
+  font-weight: 700;
+}
+.main_child p span {
+  color: black;
+}
+.main_child .subheading_main {
+  font-size: 22px;
+  color: #666666;
+}
+.button_main {
+  margin-top: 30px;
+}
+.btn_main {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 17px 30px;
+}
+.button_main a {
+  font-size: 18px;
+  margin-left: 30px;
+  color: black;
+}
